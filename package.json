@@ -1,0 +1,7 @@
+{
+	"scripts": {
+		"start": "mdx-deck -p 8001 deck.mdx",
+		"build": "mdx-deck build deck.mdx",
+		"pdf": "npx website-pdf http://localhost:8001/print -o deck.pdf"
+	}
+}
