@@ -1,0 +1,64 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat&display=swap';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/fontawesome.min.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/solid.min.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/brands.min.css';
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h3 {
+	font-size: 0.75em;
+}
+
+h4 {
+	font-size: 0.6em;
+}
+
+h5 {
+	font-size: 0.5em;
+}
+
+h6 {
+	font-size: 0.4em;
+}
+
+ul,
+ol {
+	margin-left: 10vw !important;
+	margin-right: 10vw !important;
+}
+
+ul li,
+ol li {
+	line-height: 1.5em;
+}
+
+.profile {
+	text-align: center;
+}
+
+img.profile__avatar {
+	max-width: 25vw;
+	margin-bottom: 0.5em;
+	border: 3px solid #5e75ff;
+	border-radius: 50%;
+}
+
+.profile__name {
+	margin: 0.5em;
+	color: #212121;
+}
+
+.profile__title {
+	color: #616161;
+}
+
+.profile__links {
+	list-style-type: none;
+	font-size: 0.5em;
+}

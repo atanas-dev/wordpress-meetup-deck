@@ -3,7 +3,7 @@
 		"start": "mdx-deck -p 8001 deck.mdx",
 		"start2": "gatsby develop --host localhost --port 8001 --open",
 		"build": "mdx-deck build deck.mdx",
-		"pdf": "npx website-pdf http://localhost:8001/print -o deck.pdf"
+		"pdf": "npx website-pdf http://localhost:8001/print -o deck.pdf -w 1024 -h 768"
 	},
 	"devDependencies": {
 		"mdx-deck": "^3.0.13",
