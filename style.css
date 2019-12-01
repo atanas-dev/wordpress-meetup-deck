@@ -62,3 +62,8 @@ img.profile__avatar {
 	list-style-type: none;
 	font-size: 0.5em;
 }
+
+.links li {
+    line-height: 1.4em;
+    font-size: 0.6em;
+}
